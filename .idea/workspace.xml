@@ -10,14 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="072e9d96-3a05-4c80-a20e-02b00b2662fc" name="Changes" comment="Learn get entities and one by id">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/controller/MyRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/dao/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/exception_handling/EmployeeIncorrectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/exception_handling/NoSuchEmployeeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/configuration/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/configuration/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/controller/MyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/controller/MyRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659101220977</updated>
-      <workItem from="1659101222256" duration="11494000" />
+      <workItem from="1659101222256" duration="14441000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Configuration Commit">
       <created>1659108298554</created>
@@ -182,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659116009823</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Learn get entities and one by id">
+      <created>1659120620871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659120620871</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
