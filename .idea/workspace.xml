@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring_course_rest:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072e9d96-3a05-4c80-a20e-02b00b2662fc" name="Changes" comment="Initial Configuration Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/configuration/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/configuration/MyWebInitializer.java" afterDir="false" />
+    <list default="true" id="072e9d96-3a05-4c80-a20e-02b00b2662fc" name="Changes" comment="Learn get entities and one by id">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/controller/MyRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/configuration/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/configuration/MyConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +39,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,9 +59,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Projects/SpringLearning/MVC/spring_course_rest/src/main/java/com/yojik/spring/rest"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Projects\SpringLearning\MVC\spring_course_rest\src\main\java\com\yojik\spring\rest" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.64" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.64" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
@@ -145,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659101220977</updated>
-      <workItem from="1659101222256" duration="7742000" />
+      <workItem from="1659101222256" duration="11494000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Configuration Commit">
       <created>1659108298554</created>
@@ -154,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659108298554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Configuration Commit">
+      <created>1659116009823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659116009823</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Configuration Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Configuration Commit" />
+    <MESSAGE value="Learn get entities and one by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn get entities and one by id" />
   </component>
 </project>
