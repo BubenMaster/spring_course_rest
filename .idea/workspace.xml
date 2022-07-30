@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072e9d96-3a05-4c80-a20e-02b00b2662fc" name="Changes" comment="Learn get entities and one by id">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/exception_handling/EmployeeIncorrectData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/exception_handling/NoSuchEmployeeException.java" afterDir="false" />
+    <list default="true" id="072e9d96-3a05-4c80-a20e-02b00b2662fc" name="Changes" comment="Learn Exception message for REST, Exception handler">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/controller/MyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/controller/MyRestController.java" afterDir="false" />
     </list>
@@ -56,7 +55,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/Projects/SpringLearning/MVC/spring_course_rest/src/main/java/com/yojik/spring/rest"
+    "last_opened_file_path": "G:/Projects/SpringLearning/MVC/spring_course_rest/src/main/java/com/yojik/spring/rest",
+    "spring.configuration.checksum": "23c9f21ebc79f148d0975052a928e8d1"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -162,7 +162,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659101220977</updated>
-      <workItem from="1659101222256" duration="14441000" />
+      <workItem from="1659101222256" duration="15213000" />
+      <workItem from="1659184342721" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Configuration Commit">
       <created>1659108298554</created>
@@ -185,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659120620871</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Learn Exception message for REST, Exception handler">
+      <created>1659123609897</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659123609897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Configuration Commit" />
     <MESSAGE value="Learn get entities and one by id" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn get entities and one by id" />
+    <MESSAGE value="Learn Exception message for REST, Exception handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn Exception message for REST, Exception handler" />
   </component>
 </project>
