@@ -40,4 +40,10 @@ public class MyRestController {
         return employee;
     }
 
+    @PutMapping("/employees")
+    public Employee updateEmployee(@RequestBody Employee employee) {
+        employeeService.saveOrUpdateEmployee(employee);
+        return employee;
+    }
+
 }
