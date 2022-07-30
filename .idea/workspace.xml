@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="072e9d96-3a05-4c80-a20e-02b00b2662fc" name="Changes" comment="Learn Exception message for REST, Exception handler">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java" afterDir="false" />
+    <list default="true" id="072e9d96-3a05-4c80-a20e-02b00b2662fc" name="Changes" comment="Learn Global exception handler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/controller/MyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yojik/spring/rest/controller/MyRestController.java" afterDir="false" />
     </list>
@@ -163,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659101220977</updated>
       <workItem from="1659101222256" duration="15213000" />
-      <workItem from="1659184342721" duration="653000" />
+      <workItem from="1659184342721" duration="1792000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Configuration Commit">
       <created>1659108298554</created>
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659123609897</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Learn Global exception handler">
+      <created>1659185200853</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659185200853</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +220,7 @@
     <MESSAGE value="Initial Configuration Commit" />
     <MESSAGE value="Learn get entities and one by id" />
     <MESSAGE value="Learn Exception message for REST, Exception handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn Exception message for REST, Exception handler" />
+    <MESSAGE value="Learn Global exception handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn Global exception handler" />
   </component>
 </project>
