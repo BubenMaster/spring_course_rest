@@ -22,7 +22,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         List<Employee> allEmployees =session.createQuery("SELECT emplyee from Employee emplyee", Employee.class).getResultList();
 //        Query<Employee> query = session.createQuery("FROM Employee");
 //        List<Employee> allEmployees = query.getResultList();
-       System.out.println(allEmployees);
+//        System.out.println(allEmployees);
 
         return allEmployees;
     }

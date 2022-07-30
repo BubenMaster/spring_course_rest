@@ -46,4 +46,12 @@ public class MyRestController {
         return employee;
     }
 
+    @DeleteMapping("/employees/{id}")
+    public String deleteEmployee(@PathVariable int id){
+        if (getEmployee(id) != null) {
+            employeeService.deleteEmployee(id);
+        }
+        return "Employee with id " + id + " was erased";
+    }
+
 }
